@@ -3,6 +3,7 @@ const geocode=require('./geocode.js');
 const forecast=require('./forecast.js');
 const path=require('path')
 const hbs=require('hbs')
+const port=process.env.PORT || 3000
 
 const app=express()
 const stpath=path.join(__dirname,'../public');
@@ -77,5 +78,5 @@ app.get('', (req, res)=> {
 //})
 
 
-app.listen(3000,()=>console.log('Server is up and running'));
+app.listen(port,()=>console.log('Server is up and running om port'+port));
 console.log('Web server is up');

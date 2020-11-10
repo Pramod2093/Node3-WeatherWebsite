@@ -14,7 +14,7 @@ weatherForm1.addEventListener('submit',(e)=>{
     
     const loc=location1.value
 
-    fetch('http://localhost:3000/weather?address='+loc).then((response)=>{
+    fetch('/weather?address='+loc).then((response)=>{
     response.json().then((data)=>{
         result.textContent=data.temperature;
         rs2.textContent=data.address
