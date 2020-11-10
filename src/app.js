@@ -74,7 +74,7 @@ app.get('', (req, res)=> {
 //         mob:789
 //     })
 
-// })
+//})
 
 
 app.listen(3000,()=>console.log('Server is up and running'));
