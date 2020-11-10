@@ -1,0 +1,43 @@
+body{
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main-content{
+    flex-grow: 1;
+}
+.por{
+    width:250px;
+}
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+footer{
+    color:#0a324d;
+    margin-top:100px;
+    border-top:1px solid #333333;
+}
+
+
+
+header {
+    color:#999333;
+
+}
+
+header a{
+    color:#0b9e2b;
+}

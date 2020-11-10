@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel='icon' href='/css/icon.jpg'>
+        <link rel="stylesheet" href='/css/main.css'>
+        
+
+    </head>
+    <body>
+        <div class=main-content>
+        {{>header}}
+        <h1>You are on Index HBS Page</h1>
+        <img class='por' src='../css/download.jpg'/>
+        <form>
+            <input placeholder='Location'>
+            <button>Search</button>
+        </form>
+        <p id='rs1'></p>
+        <p id='rs2'></p>
+        </div>
+        
+        {{>footer}}
+        <script src='/js/main.js'></script>
+    </body>
+</html>
